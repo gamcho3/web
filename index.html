@@ -1,48 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Recipe Finder</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
     <header>
-        <h1>My Recipe Finder</h1>
-        <nav>
-            <div class="dropdown">
-                <button class="dropbtn">Choose Country</button>
-                <div id="country-list" class="dropdown-content"></div>  
-            </div>
-            <div class="dropdown">
-                <button class="dropbtn">Choose Main Ingredient</button>
-                <div id="ingredient-list" class="dropdown-content"></div>
-            </div>
-            <div class="search-bar">
-                <input type="text" id="search-input" placeholder="Search recipes...">
-                <button id="search-button">Search</button>
-            </div>
-        </nav>
+      <h1>My Recipe Finder</h1>
+      <nav>
+        <div class="dropdown">
+          <button class="dropbtn">Choose Country</button>
+          <div id="country-list" class="dropdown-content"></div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">Choose Main Ingredient</button>
+          <div id="ingredient-list" class="dropdown-content"></div>
+        </div>
+        <div class="search-bar">
+          <input
+            type="text"
+            id="search-input"
+            placeholder="Search recipes..."
+          />
+          <button id="search-button">Search</button>
+        </div>
+      </nav>
     </header>
 
     <main id="content">
-        <div class="container">
-            <div class="intro">
-                <h2>Welcome to My Recipe Finder!</h2>
-                <p>Find recipes from around the world and get inspired by the variety of cuisines available. Click on the country or main ingredient to explore!</p>
-            </div>
-
-            <div class="random-recipes">
-                <!-- Random recipes will be displayed here -->
-            </div>
+      <div class="container">
+        <div class="intro">
+          <h2>Welcome to My Recipe Finder!</h2>
+          <p>
+            Find recipes from around the world and get inspired by the variety
+            of cuisines available. Click on the country or main ingredient to
+            explore!
+          </p>
         </div>
+
+        <div class="random-recipes">
+          <!-- Random recipes will be displayed here -->
+        </div>
+      </div>
     </main>
     <footer>
-        <p>2024 search for world recipe</p>
-        <p>All rights reserved.</p>
+      <p>2024 search for world recipe</p>
+      <p>All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
     <script src="recipe.js"></script>
-</body>
+  </body>
 </html>
